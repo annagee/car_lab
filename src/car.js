@@ -32,7 +32,14 @@ Car.prototype.start= function(start){
 };
 
 Car.prototype.pickUp= function(passengers){
-  this.passengers= ["john"];
+
+
+  if (this.state === "on") {        
+ this.passengers = ["john"]
+ };
+
+
+
 };
 
 module.exports=Car;
