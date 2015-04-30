@@ -10,7 +10,7 @@ function Car(make, model, year, color, state, previousOwners,currentOwner, passe
 
 
 
-  // body...
+  // boby.....
 
 Car.prototype.sale = function(newOwner){
   this.newOwner = "Charlie";
@@ -31,5 +31,8 @@ Car.prototype.start= function(start){
   this.currentstate = "off";
 };
 
+Car.prototype.pickUp= function(passengers){
+  this.passengers= ["john"];
+};
 
 module.exports=Car;
