@@ -24,10 +24,12 @@ Car.prototype.paint = function(newColor){
 };
 
 Car.prototype.start= function(start){
-  this.state= "on";
+  this.state = "on";
 };
 
-
+ Car.prototype.off= function(currentstate){
+  this.currentstate = "off";
+};
 
 
 module.exports=Car;
