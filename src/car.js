@@ -12,11 +12,15 @@ function Car(make, model, year, color, state, previousOwners,currentOwner, passe
 
   // body...
 
-Car.prototype.sale = function(newOwner) {
+Car.prototype.sale = function(newOwner){
   this.newOwner = "Charlie";
   this.previousOwners = ["Manufacturer"];
-  this.currentOwner = this.newOwner;
+  this.currentOwner ="Charlie";
 };
+
+
+
+
 
 Car.prototype.paint = function(newColor){
 
